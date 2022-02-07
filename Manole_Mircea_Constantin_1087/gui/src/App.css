@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+.App {
+  padding-bottom: 60px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 40px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.home {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 300px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  float: left;
+  margin-left: 30px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+}
+
+.preview-meeting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px 200px;
+  border-bottom: 2px solid #f2f2f2;
+  align-items: center;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  background-color: #f2f2f2;
+}
+
+.preview-meeting:hover {
+  background-color: #f2f2f2;
+}
+.preview-meeting h2 {
+  font-size: 40px;
+  color: #0eceae96;
+  margin-top: 0px;
+}
+
+.preview-meeting .textHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.preview-meeting .buttonHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.preview-meeting .buttonHolder button {
+  margin: 10px;
+}
+
+.input {
+  max-width: 38em;
+  padding: 1em 3em 2em 3em;
+  margin: 0em auto;
+  background-color: #fff;
+  border-radius: 4.2px;
+  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.select {
+  width: 20%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+select {
+  height: 3.4em;
+  line-height: 2;
+}
+
+.select:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.select:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.select:focus,
+.select:active {
+  outline: 0;
+}
+.select option {
+  background-color: #f0a500;
+  color: #fff;
+}
